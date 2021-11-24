@@ -1,0 +1,76 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" opened
+     fixedInViewport="true" fixedTopGap="64">
+        <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="/home">
+                <i class="material-icons">
+                    home
+                </i>
+                Inicio
+            </a>
+            <a mat-list-item routerLink="/Tenis">
+                <i class="material-icons">
+                    storefront
+                </i>
+                Tenis  
+            </a>
+            <a mat-list-item routerLink="/Camisetas">
+                <i class="material-icons">
+                    storefront
+                </i>
+                Camisetas    
+            </a>
+            <a mat-list-item routerLink="/Bones">
+                <i class="material-icons">
+                    storefront
+                </i>
+                Bones    
+            </a>
+            <a mat-list-item routerLink="/Jaqueta">
+                <i class="material-icons">
+                    storefront
+                </i>
+                Jaquetas & Moletons    
+            </a>
+            <a mat-list-item routerLink="/Jordan">
+                <i class="material-icons">
+                    storefront
+                </i>
+                Jordan   
+            </a>
+            <a mat-list-item routerLink="/Bola">
+                <i class="material-icons">
+                    storefront
+                </i>
+                Bola   
+            </a>
+            <a mat-list-item routerLink="/Shorts">
+                <i class="material-icons">
+                    storefront
+                </i>
+                Shorts   
+            </a>
+            <a mat-list-item routerLink="/CamisetasTime">
+                <i class="material-icons">
+                    storefront
+                </i>
+                Camisa de Time   
+            </a>
+            <a mat-list-item routerLink="/BolsasMochila">
+                <i class="material-icons">
+                    storefront
+                </i>
+                Bolsas & Mochila   
+            </a>
+            <a mat-list-item routerLink="/CortaVento">
+                <i class="material-icons">
+                    storefront
+                </i>
+                Corta Vento   
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
